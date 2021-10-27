@@ -1,0 +1,11 @@
+name: hello workflow
+
+on: [workflow_dispacth]
+jobs:
+ hello:
+   runs-on: ubuntu-latest
+
+   steps:
+   -run:
+        echo"hello world"
+         cho"another command"
